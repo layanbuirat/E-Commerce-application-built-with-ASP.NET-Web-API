@@ -28,9 +28,6 @@ dotnet ef migrations script -o DatabaseScript.sql
 
 cd SHOP.PL
 dotnet run
-
-start https://localhost:5001/swagger 
-
 dotnet clean
 
 dotnet publish SHOP.PL -c Release -o ./PublishOutput

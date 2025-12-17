@@ -1,0 +1,27 @@
+﻿## .NET ##
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.dbproj.schemaview
+
+## VS Code ##
+.vs/
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## VS ##
+*.userprefs
+
+## SQL Server ##
+*.mdf
+*.ldf
+
+appsettings.Development.json
+appsettings.Production.json
